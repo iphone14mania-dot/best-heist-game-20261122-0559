@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Nightvault — The Gilded Heist</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0b0f18; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: monospace; }
+  #wrap { text-align: center; }
+  canvas { display: block; background: #0b0f18; border: 2px solid #2a3348; border-radius: 8px; }
+  #hint { color: #9aa5bd; font-size: 12px; margin-top: 10px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="960" height="720"></canvas>
+  <div id="hint">Nightvault — The Gilded Heist · WASD move · Shift sneak · Space sprint · Q coin · F smoke · G EMP · E grab · P pause · M mute</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
